@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/note_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lizehao.watermelondiarynew.Activity.NoteActivity"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_centerVertical="true"
+        android:lineSpacingExtra="10sp"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:alpha="0.9"
+        android:fontFamily="@font/lishu"/>
+
+</RelativeLayout>

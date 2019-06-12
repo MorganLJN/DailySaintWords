@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RLtouch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lizehao.watermelondiarynew.Activity.RecommendActivity">
+
+
+    <ImageSwitcher
+        android:id="@+id/imageSwitcher1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/bt_RecomToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/re"/>
+
+
+    <ImageButton
+        android:id="@+id/imgTouchShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/recom_bt"
+        android:visibility="invisible"
+        android:background="@color/transparent"
+        android:layout_centerInParent="true"
+        android:alpha="0.8"/>
+
+    <ImageButton
+        android:id="@+id/recom_bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:src="@drawable/recom_bt1"
+        android:background="@color/transparent"
+        android:alpha="0.8"/>
+
+    <ImageButton
+        android:id="@+id/recom_bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:src="@drawable/recom_bt2"
+        android:background="@color/transparent"
+        android:alpha="0.8"/>
+
+    <ImageButton
+        android:id="@+id/recom_bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:src="@drawable/recom_bt3"
+        android:background="@color/transparent"
+        android:alpha="0.8"
+        />
+
+
+
+</RelativeLayout>

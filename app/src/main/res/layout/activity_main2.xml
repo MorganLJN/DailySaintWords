@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat"
+    tools:context="com.lizehao.watermelondiarynew.Activity.Main2Activity">
+
+    <ImageSwitcher
+        android:id="@+id/imageSwitcher2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.7"
+        android:src="@drawable/fish"/>
+
+    <Button
+        android:id="@+id/bt_HomeToDiary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="330dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/transparent" />
+
+    <ImageView
+        android:id="@+id/fringe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-80dp"
+        android:src="@drawable/fringe_long"/>
+
+    <Button
+        android:id="@+id/bt_HomeToRecom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="70dp"
+        android:background="@color/transparent" />
+
+    <Button
+        android:id="@+id/bt_HomeToMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="330dp"
+        android:layout_marginBottom="650dp"
+        android:background="@color/transparent"/>
+
+</RelativeLayout>

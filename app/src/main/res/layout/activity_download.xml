@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dl"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    tools:context="com.lizehao.watermelondiarynew.Activity.DownloadActivity">
+
+
+    <Button
+        android:id="@+id/bt_DlToRecom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="300dp"
+        android:layout_marginBottom="650dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/transparent"/>
+
+    <Button
+        android:id="@+id/bt_dl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="62dp"
+        android:layout_marginLeft="286dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="638dp"
+        android:background="@color/transparent"/>
+
+    <ImageView
+        android:id="@+id/dl_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:layout_marginBottom="142dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginRight="81dp"
+        android:visibility="invisible"
+        />
+
+
+</RelativeLayout>
